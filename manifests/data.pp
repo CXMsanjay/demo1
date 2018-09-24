@@ -1,5 +1,5 @@
 class mysql::data {
-	$my_env = [ 'd1', 'd2', 'd3', 'd4', 'd8' , 'd9' , 'd88' ]
+	$my_env = [ 'd1', 'd2', 'd3', 'd4', 'd8' , 'd9' , 'd88' , 'kim']
 
 	each($my_env) |$value| {
 	file { "/${value}.csv":
